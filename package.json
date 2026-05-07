@@ -1,0 +1,13 @@
+{
+  "name": "grantkit",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/api"
+  ],
+  "scripts": {
+    "dev": "start cmd /k \"npm -w apps/api run dev\"",
+    "build": "npm -w apps/api run build",
+    "start": "npm -w apps/api run start"
+  }
+}
